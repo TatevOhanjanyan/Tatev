@@ -200,7 +200,7 @@ color: #a74e0c;
 
 * {
         padding: 0;
-        margin: 0;
+        margin: 0px;
         border: none;
         outline: none;
         box-sizing: border-box;
@@ -212,6 +212,12 @@ color: #a74e0c;
         justify-content: center;
         height: 100vh;
         background: rgb(229, 229, 229);
+       /* background-color: rgb(143 88 27 / 80%) */
+       background-image: url("https://lucidmanager.org/images/rgames/wargames.gif")
+
+        
+
+
     }
     
     .area {
@@ -220,26 +226,25 @@ color: #a74e0c;
     }
     
     .area .title {
-        font-size: 3rem;
-        color: #a74e0c;
+        font-size: 5rem;
+        color: #175db4;
         text-align: center;
         padding: .6rem 1.4rem;
         border-radius: .8rem;
+        text-shadow: 3px 3px #fff;
     }
     
     
     .area .btnStart {
-        margin: 10rem auto;
-        padding: 1.2rem 2rem;
-        font-size: 1.2rem;
-        box-shadow: 0.3rem 0.3rem rgba(0,0,0, .7);
-        color: rgb(134, 35 ,9);
-        border-radius: 1.2rem;
-        cursor: pointer;
-        background-image: linear-gradient(to right,
-            #da7815 10%,
-            #a74e0c 51%, 
-            #be3f0e 100%);
+    margin: 3rem;
+    padding: 1.2rem 2rem;
+    font-size: 1.2rem;
+    box-shadow: 0.3rem 0.3rem rgb(0 0 0 / 70%);
+    color: rgb(255 252 251);
+    border-radius: 1.2rem;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #15dad5 10%, #478fc1 51%, #1ba4db 100%);
+    
     }
     
     
@@ -301,10 +306,10 @@ color: #a74e0c;
         width: 50px;
         height: 50px;
         line-height: 50px;
-        border: .1rem solid rgb(1, 1, 90);
+        border: .1rem solid rgb(255 255 255);
         font-size: 2.5rem;
         text-align: center;
-        color: rgb(1, 1, 90);
+        color: rgb(255 255 255);
     }
     
     
@@ -320,7 +325,7 @@ color: #a74e0c;
         padding: .6rem 1.6rem;
         font-size: 1.2rem;
         margin: 0 .3rem;
-        box-shadow: 0 .1rem .2rem rgb(1, 1, 90);
+        box-shadow: 0 0.1rem 0.2rem rgb(220 220 220);
         color: #fff;
         border-radius: 1.2rem;
         cursor: pointer;
@@ -328,9 +333,7 @@ color: #a74e0c;
     
     .btn_restart {
         background-image: linear-gradient(to right,
-        #314755 0%,
-        #26a0da 51%,
-        #314755 100%)
+        #e89d2f 0%, #da5626 51%, #cf5614 100%)
     }
     
     .btn_restart:hover {
@@ -341,9 +344,7 @@ color: #a74e0c;
     
     .btn_quit {
         background-image: linear-gradient(to right,
-        #d31027 0%,
-        #5c0711 61%,
-        #ea384d 80%);
+        #be4313 0%, #a2531b 61%, #9b600e 80%);
     }
     
     .btn_quit:hover {
@@ -410,3 +411,5 @@ color: #a74e0c;
     }
     
     }
+
+   
